@@ -1,0 +1,29 @@
+.navbar-grid {
+   background-color: #fff;
+   display: grid;
+   grid-template-areas: 'content';
+   grid-template-columns: 1fr;
+   line-height: 60px;
+   min-height: 64px;
+   position: fixed;
+   top: 0;
+   width: 100vw;
+   z-index: 100;
+}
+
+.navbar-wrapper {
+   display: grid;
+   grid-area: content;
+   grid-template-columns: 200px 1fr 1fr;
+   padding: 0 20px;
+   box-sizing: border-box;
+}
+
+.navbar-logo {
+   width: 200px;
+   background-image: url('../../assets/bellotero.svg');
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 60px;
+   margin: 0px;
+}
