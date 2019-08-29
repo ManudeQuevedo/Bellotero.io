@@ -1,0 +1,16 @@
+.main-grid {
+  display: grid;
+  grid-template-columns: (auto, 1024px);
+  box-sizing: border-box;
+  grid-template-areas: 'main';
+  height: 100vh;
+}
+.main-title > h1 {
+   background: #071eb3;
+   color: #fff;
+   grid-area: main;
+   margin-top: 150px;
+   margin-left: 150px;
+   padding: 10px 5px;
+   width: 325px;
+}

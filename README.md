@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Bellotero.io
+Bellotero.io is the digital solution that  gives you fast, accurate, automated accounts  payable and smart,  business-transforming insights.
+>>>>>>> a74c98de596808ed386ed4ca8a2b747f282d6a7b

@@ -1,0 +1,109 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap');
+
+
+/* Testimonial Styles */
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: (auto, 1024px);
+  height: 254px;
+  position: relative;
+  top: -100px;
+}
+
+.testimonals-card {
+  background: #fff;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-areas: 'title text'
+                       'title text';
+  padding: 40px 32px 10px 32px;
+  position: relative;
+  left: 150px;
+  right: 0;
+  width: 60%;
+}
+
+
+.testimonials-title {
+  color: #1e1e1e;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  grid-area: title;
+  margin: 0;
+  padding: 0;
+  width: 215px;
+}
+
+.testimonials-subtitle {
+  color: #a5a5a5;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  grid-area: title;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 40px;
+  left: 0;
+  width: 278px;
+}
+
+.testimonials-text {
+  color: #161616;
+  font-size: 24px;
+  font-weight: 600;
+  grid-area: text;
+  margin: 0;
+  width: 565px;
+}
+
+.left {
+   width: 56px;
+   position: absolute;
+   height: 56px;
+   z-index: 20;
+   background-color: #071eb3;
+   background-image: url('../../assets/arrow-left.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 16px;
+   cursor: pointer;
+   top: 265px;
+   left: 1000px;
+}
+
+.right {
+   width: 56px;
+   position: absolute;
+   height: 56px;
+   z-index: 20;
+   background-color: #071eb3;
+   background-image: url('../../assets/arrow-right.svg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 16px;
+   cursor: pointer;
+   top: 265px;
+   left: 1056px;
+}
+
+.slides {
+   background-color: #071eb3;
+   color: #fff;
+   font-family: 'Cormorant Garamond', serif;;
+   font-size: 32px;
+   font-weight: 300;
+   height: 56px;
+   position: absolute;
+   text-align: center;
+   vertical-align: middle;
+   top: 265px;
+   left: 887px;
+   width: 112px;
+}
+
+.slides > p {
+   margin-top: 6px;
+}
