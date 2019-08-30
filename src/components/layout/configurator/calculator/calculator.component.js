@@ -1,6 +1,6 @@
 import React from "react"
 import { Tracks, Handles, Slider } from "react-compound-slider"
-import "./calculator.styles.scss"
+import "./calculator.styles.css"
 
 const calcStyle = {
   position: "relative",

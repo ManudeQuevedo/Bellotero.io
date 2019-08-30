@@ -32,7 +32,7 @@
   display: grid;
   position: relative;
   grid-template-columns: repeat(10 , minmax(100px, 1fr));
-  grid-template-areas: '. . . . nav1 nav2 nav3 nav4 nav5 nav6 nav7';
+  grid-template-areas: '. . . . . . nav1 nav2 nav3 nav4';
 }
 
 .navbar-items > a {

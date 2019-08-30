@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Calculator from './calculator/calculator.component'
-import './configurator.styles.scss'
+import './configurator.styles.css'
 
 const Configurator = () => {
   const [data, setData] = useState(null)
