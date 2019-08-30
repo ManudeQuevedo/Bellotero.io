@@ -1,23 +1,34 @@
-import React from "react";
-import './configurator.styles.css'
+import React, { useEffect, useState } from "react"
+import Calculator from './calculator/calculator.component'
+import './configurator.styles.scss'
 
 const Configurator = () => {
+  const [data, setData] = useState(null)
+
+  useEffect(() => {
+    fetch(
+      "https://raw.githubusercontent.com/Bernabe-Felix/Bellotero/master/page2.json"
+    )
+      .then(res => res.json())
+      
+      .then(setData);
+  }, [])
+
    return (
      <React.Fragment>
-       <div className="configurator-grid">
-         <div className="configurator-title">
-           <h1>Save more with</h1>
-           <h1>Bellotero.io</h1>
-           <div className="configurator-text">
-             <p>
-               With Bellotero.io you save time and money make real-time
-               decisions that boost your business and your bottom line. Get less
-               wrongfully blocked payments, save time on bookkeeping and no need
-               to worry about safety.
-             </p>
+       {data ?
+       <>
+         <div className="configurator-grid">
+           <div className="configurator-title">
+             <h1>{data.calculator.title}</h1>
+             <div className="configurator-text">
+               <p>{data.calculator.description}</p>
+             </div>
            </div>
+           <Calculator className="configurator-calculator" />
          </div>
-       </div>
+       </>
+       : <p>Loading...</p>}
      </React.Fragment>
    );
 }

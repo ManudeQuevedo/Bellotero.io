@@ -1,14 +1,15 @@
 .configurator-grid {
   display: grid;
-  grid-template-columns: (auto, 1024px);
+  grid-template-columns: repeat(2, minmax(auto, 1024px));
+  grid-template-areas: 'title calc'
+                       'text calc';
   box-sizing: border-box;
-  grid-template-areas: 'main';
   height: 100vh;
 }
 .configurator-title > h1 {
    background: #071eb3;
    color: #fff;
-   grid-area: main;
+   grid-area: title;
    margin-top: 150px;
    margin-left: 150px;
    padding: 10px 5px;
@@ -26,8 +27,13 @@
    font-family: 'Roboto', sans-serif;
    font-size: 16px;
    font-weight: normal;
+   grid-area: text;
    letter-spacing: normal;
    line-height: 1.5;
    margin-left: 150px;
    width: 349px;
+}
+
+.configurator-calculator {
+   grid-area: calc;
 }
