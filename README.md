@@ -9,15 +9,15 @@
 
 If you wanna run this on a local enviroment, please follow these steps:
 
-*  git clone git@github.com:ManudeQuevedo/Bellotero.io.git
+*  git clone + **copy the SSH or HTTPS link**
 *  Move inside the root folder and run: **yarn**
 *  Run your local enviroment by executing: **yarn add**
-*  It automatically will open a new tab on your default browser.
-*  Enjoy!
+*  It automatically will open a new tab on your default browser
+*  Enjoy! 😃
 
 
 ## This site has also been deployed to Netlify:
 
-# [Live Demo](https://bellotero-app.netlify.com).
+# [Live Demo](https://bellotero-app.netlify.com). 🤓
 
 Thanks for the chance, really looking forward to becoming part of the Maniak team.
