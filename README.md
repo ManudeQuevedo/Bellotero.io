@@ -11,7 +11,8 @@ If you wanna run this on a local enviroment, please follow these steps:
 
 *  ✅ git clone + **copy the SSH or HTTPS link**
 *  ✅ Move inside the root folder and run: **yarn**
-*  ✅ Run your local enviroment by executing: **yarn add**
+*  ✅ Install all required package dependencies by executing: **yarn add**
+*  ✅ Run **yarn start**
 *  ✅ It automatically will open a new tab on your default browser
 *  ✅ Enjoy! 😃
 
