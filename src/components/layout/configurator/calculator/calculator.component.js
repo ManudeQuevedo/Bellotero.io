@@ -101,7 +101,7 @@ class SavingsCalc extends React.Component {
   render() {
     /*const { state: { values, values1, updates1,values2,updates2 } } = this*/
     return (
-      <span className="savingsCalc">
+      <span className="calculator-grid">
         <div className="savingsCalc__left">
           <div className="savingsCalc__container">
             <div className="calculator-description">

@@ -14,7 +14,7 @@
 .testimonals-card {
   background: #fff;
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: repeat(2, minmax(300px 1fr));
   grid-template-areas: 'title text'
                        'title text';
   padding: 40px 32px 10px 32px;
@@ -50,7 +50,7 @@
   width: 278px;
 }
 
-.testimonials-text {
+.testimonials-text > p {
   color: #161616;
   font-size: 24px;
   font-weight: 600;

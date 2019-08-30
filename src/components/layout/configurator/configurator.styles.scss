@@ -37,3 +37,46 @@
 .configurator-calculator {
    grid-area: calc;
 }
+
+@media (max-width: 720px) {
+   .configurator-grid {
+      display: grid;
+      grid-template-columns: repeat(1, minmax(auto, 720px));
+      grid-template-areas: 'title'
+                           'text'
+                           'calc';
+      box-sizing: border-box;
+      height: 100vh;
+   }
+
+   .configurator-title > h1 {
+      background: #071eb3;
+      color: #fff;
+      grid-area: title;
+      margin-top: 150px;
+      margin-left: 50px;
+      padding: 10px 5px;
+      width: 222px;
+   }
+
+   .configurator-text {
+      color: #161616;
+      height: 120px;
+      font-family: 'Roboto', sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      grid-area: text;
+      letter-spacing: normal;
+      line-height: 1.5;
+      margin-left: 50px;
+      width: 349px;
+   }
+
+   .configurator-calculator {
+      grid-area: calc;
+   }
+
+   .calculator-grid {
+      margin-left: 50px;
+   }
+}
